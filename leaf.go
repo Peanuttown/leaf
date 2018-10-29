@@ -22,6 +22,7 @@ func Run(mods ...module.Module) {
 	}
 
 	log.Release("Leaf %v starting up", version)
+	log.Release("test")
 
 	// module
 	for i := 0; i < len(mods); i++ {
